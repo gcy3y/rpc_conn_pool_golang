@@ -1,8 +1,8 @@
 
 # A Handy, Hign-Performace, Extensible Golang's Rpc Conn Pool 
 
->> Based on github.com/fatih/pool Conn Pool Currently
->> Suppprt JsonRpc and GobRpc(golang default rpc) Currently
+* Based on github.com/fatih/pool Conn Pool Currently
+* Suppprt JsonRpc and GobRpc(golang default rpc) Currently
 
 ## Install and Usage
 
@@ -21,7 +21,7 @@ Please vendor the package with one of the releases: https://github.com/gcy3y/rpc
 >> create a factory() to be used with rpc pool
 ```
 factory := func() (net.Conn, error) {
-   return net.DialTimeout("tcp", IP_PORT_CONNECT_JSON, time.Second*time.Duration(5))
+   return net.DialTimeout("tcp", 801, time.Second*time.Duration(5))
 }
 ```
 
