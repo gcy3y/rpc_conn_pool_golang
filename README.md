@@ -28,7 +28,7 @@ factory := func() (net.Conn, error) {
 
 >> create a new json rpc pool with an initial capacity of 1000 and maximum
 >> capacity of 10000. The factory will create 10000 initial rpc connections and put it
->> into the pool.
+>> into the pool. rpc type can be "json" or "gob" or "", "" means gob rpc
 
 ```
 rpc_pool, err := NewRpcConnPool("json", 1000, 10000, factory)
