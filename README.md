@@ -59,7 +59,9 @@ rpc_pool.CloseRpcConn(rpc_conn)
 ```
 
 >> close pool any time you want, this closes all the rpc connections inside a pool
+```
 rpc_pool.Close()
+```
 
 >> currently available connections in the rpc pool
 ```
