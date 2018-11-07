@@ -1,5 +1,5 @@
 
-# A Handy, Hign-Performace, Extensible Golang's Rpc Conn Pool 
+# A Handy, Hign-Performace, Extensible Golang's Rpc Connection Pool 
 
 * Based on github.com/fatih/pool Conn Pool Currently
 * Suppprt JsonRpc and GobRpc(golang default rpc) Currently
